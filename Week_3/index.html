@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Exercise - Week 3</title>
+</head>
+<body>
+    <!-- Create a form for user feedback with text input fields, radio buttons, a checkbox, and a submit button -->
+     <h1>Survey Form</h1>
+     <form action="thankyou.html" method="post">
+        <label for="fname">First Name:</label>
+        <input id="fname" name="fname" type="text">
+        <br>
+        <label for="lname">Last Name:</label>
+        <input id="lname" name="lname" type="text">
+        <br>
+        <label for="email" >Email:</label>
+        <input type="email">
+        <br>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone">
+        <br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="1" max="99">
+        <br>
+        <label for="gender" name="gender">Gender:</label>
+        
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+        <br><br>
+        <label for="interests">Interests:</label>
+        <label for="trucks">Trucks</label>
+        <input type="checkbox" id="trucks" name="interests" value="trucks">
+        <label for="trains">Trains</label>
+        <input type="checkbox" id="trains" name="interests" value="trains">
+        <br>
+        <label for="country">Country:</label>
+        <input type="text" id="country" name="country">
+        <br><br>
+        <label for="bossofme">Is life fair?</label><br>
+        <input type="radio" id="yes" name="bossofme" value="yes">
+        <label for="yes">Yes</label><br>
+        <input type="radio" id="no" name="bossofme" value="no">
+        <label for="no">No</label><br>
+        <input type="radio" id="maybe" name="bossofme" value="maybe">
+        <label for="maybe">Maybe</label><br>
+        <input type="radio" id="idontknow" name="bossofme" value="idontknow">
+        <label for="idontknow">I Don't Know</label><br>
+        
+        <input type="radio" id="repeat" name="bossofme" value="canyourepeatthequestion">
+        <label for="repeat">Can you repeat the question?</label><br>
+        
+        <input type="radio" id="notthebossofme" name="bossofme" value="idontknow">
+        <label for="notthebossofme">You're not the boss of me now</label><br>
+        <br><br>
+        <label for="comments">Comments?</label>
+        <textarea type="text" id="comments" name="comments"></textarea>
+        <br><br>
+        <label for="agree">Agree to terms:</label>
+        <input type="checkbox" required>
+        <br><br>
+        <button type="submit">Submit</button>	
+        <input type="reset">
+     </form>
+</body>
+</html>
