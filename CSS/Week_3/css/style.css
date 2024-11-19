@@ -1,0 +1,77 @@
+body {
+    background-color: #8a2626;
+    color: #dedede;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    padding:0;
+}
+
+.topnav a {
+    float: right;
+    display: inline;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Change the background color of a page based on screen width. */
+@media screen and (max-width: 600px) {
+    body {
+        background-color: #241aa5;
+        color: #ffc711;
+    }
+
+    .topnav {
+        overflow: hidden;
+        background-color: #333;
+
+    }
+
+    .topnav a {
+        float: none;
+        width: 100%;
+        display:block;
+        color: #d71e1e;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    .topnav a:hover {
+        background-color: #26e666;
+        color: rgb(57, 62, 88);
+        transform: scale(1.8);
+    }
+}
+
+/* styling for box div */
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: changeColor 2s infinite;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0% {background-color: red; left: 0px; top: 0px;}
+    25% {background-color: yellow; left: 200px; top: 0px;}
+    50% {background-color: blue; left: 200px; top: 200px;}
+    75% {background-color: green; left: 0px; top: 200px;}
+    100% {background-color: red; left: 0px; top: 0px;}
+    }
+
+    

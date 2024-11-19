@@ -1,0 +1,65 @@
+body {  
+    background-color: #8a2626;
+    color: #dedede;
+font-family: "Ubuntu", sans-serif;
+font-weight: 300;
+font-style: normal;
+font-size: 1em;
+}
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    background-color: #541313;
+    color: #dedede;
+}
+
+label {
+    padding: 12px;
+    display: inline-block;
+}
+input, textarea {
+    padding: 4px;
+    border: 1px solid #000000;
+    border-radius: 0.2em;
+    font-size: 1em;
+    color: #922c2c;
+    background-color: #dedede;
+}
+input:focus, textarea:focus {
+    border-color: #922c2c;
+}
+input[type=submit] {
+    background-color: #922c2c;
+    color: #dedede;
+
+}
+
+label#bossofme {
+    text-shadow: 1px 1px #000000;
+    font-size: larger;
+    font-style: italic;
+    font-weight: bold;
+}
+h1 {
+    display: block;
+    text-align: center;
+    text-shadow: 2px 2px #000000;
+}
+
+textarea#comments {
+    width: 97.5%;
+    height: 50px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+label#comments {    
+    text-shadow: 1px 1px #000000;
+    font-size: lsmall;
+    font-style: italic;
+    font-weight: bold;
+    
+}
